@@ -57,7 +57,7 @@ function bold(n){
             break
             case 5: a.texto.value=`${valor.comeco}<ul><li>${valor.meio}</li></ul> ${valor.final}`
             break
-            case 6: a.texto.value=`${valor.comeco} <a href="LINK AQUI">${valor.meio}</a> ${valor.final}`
+            case 6: a.texto.value=`${valor.comeco} <a href="http://${valor.meio}">${valor.meio}</a> ${valor.final}`
             break
             case 7: a.texto.value=`${valor.comeco} <s>${valor.meio}</s> ${valor.final}`
             break
