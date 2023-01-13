@@ -31,7 +31,7 @@ class editor {
 }
 
 const a = new editor()
-a.texto.addEventListener('keyup', (e) =>{ 
+a.texto.addEventListener('mousemove', (e) =>{ 
     a.atualiza()
     
     
